@@ -4,7 +4,7 @@ $a = 1;
 $b = 2;
 
 
-// BINÁRNÍ OPERÁTORY --> potřebují pro své provedení dva operandy (proměnné atd.) 
+// BINÁRNÍ OPERÁTORY --> potřebují pro své provedení dva operandy (proměnné, hodnoty atd.) 
 
 /*
     Aritmetické operátory
@@ -47,7 +47,7 @@ $o = true || false;
 $p = !$n; // v $n je true, lze číst jako !true
 
 
-// UNÁRNÍ OPERÁTORY
+// UNÁRNÍ OPERÁTORY --> potřebují ke svému provedení jeden operand(promennou, hodnotu atd.)
 
 /*
     Aritmetické operátory

@@ -1,0 +1,2 @@
+Napište program který provede libovolnou aritmetickou operaci s oběmi předpřipravenými proměnnými a uloží jí do nově vytvořené proměnné (libovolně pojmenované). 
+Hodnotu vytvořené proměnné vypište pomocí funkce var_dump.
