@@ -43,7 +43,9 @@ $m = "ahoj, " . " jak " . " se " . "más?";
 */
 
 $n = true && false;
+$n = true and true;
 $o = true || false;
+$o = true or false;
 $p = !$n; // v $n je true, lze číst jako !true
 
 
