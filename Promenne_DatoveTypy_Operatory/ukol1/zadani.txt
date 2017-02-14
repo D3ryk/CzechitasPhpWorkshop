@@ -1,2 +1,9 @@
-Napište program který provede libovolnou aritmetickou operaci s oběmi předpřipravenými proměnnými a uloží jí do nově vytvořené proměnné (libovolně pojmenované). 
-Hodnotu vytvořené proměnné vypište pomocí funkce var_dump.
+Napište program který provede:
+
+a) Libovolnou aritmetickou operaci s oběmi předpřipravenými proměnnými a uloží jí do nově vytvořené proměnné (libovolně pojmenované).
+b) Odečte od proměnné $promennaJedna jedničku a takto vzniklou hodnotu uloží zpět do stejné proměnné.
+c) Přičte od proměnné $promennaDva jedničku a takto vzniklou hodnotu uloží zpět do stejné proměnné.
+d) Vytvořte úplně novou proměnnou, která bude řetězcem a bude obsahovat hodnotu MujPrvniRetezec, vytvarenou promennou pojmenujte $mojePromenna.
+e) K vytvořené proměnné $mojePromenna připojte novou libovolnou hodnotu, původní hodnotu zachovejte, nově přiřazená hodnota bude vypadata např. následovně 'MujPrvniRetezec Rozsireni'.
+
+Hodnoty vytvořených proměnných vypište pomocí funkce var_dump.
