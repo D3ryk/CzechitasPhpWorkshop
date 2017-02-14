@@ -1,0 +1,15 @@
+Vytvořte program, který provede následující operace:
+
+
+a) Pomocí for cyklu vypíše čísla 3, 6, 9
+b) Sečte všechny čísla v poli $cisla
+c) Vypíše každé číslo v poli $cisla, které je sudé
+d) Spočítá počet prvků v poli $ovoce
+e) Vypíše klíč pro hodnotu 'Hrozny', která je uložená v poli $ovoce 
+
+Pro procházení polí zvolte cyklus foreach, jako bonus na doma doporučuji vyzkoušet přepsat do for nebo while (Obojí je možné). 
+
+Bonus:
+
+f) Vypíše prvky pole $ovoce pozpátku
+
