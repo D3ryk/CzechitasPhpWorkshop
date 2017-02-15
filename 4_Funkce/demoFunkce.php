@@ -9,7 +9,7 @@
 /*
     Funkce bez parametru
 */
-function vypisPozdrav() {
+function printGreetings() {
     echo "Ahoj\n";
 }
 
@@ -18,27 +18,27 @@ function vypisPozdrav() {
     Funkce s parametrem
 */
 
-function vypisPromennou($promenna) {
-    echo $promenna . "\n";
+function printVariable($variable) {
+    echo $variable . "\n";
 }
 
-function pozdrav($jmeno) {
-    echo "Ahoj $jmeno\n";
+function greetings($name) {
+    echo "Ahoj $name\n";
 }
 
 /*
     Předání parametru hodnotou
 */
-function odectiJednicku($cislo) {
-    return $cislo - 1;
+function subtractOne($number) {
+    return $number - 1;
 }
 
 
 /*
     Předání parametru odkazem
 */
-function prictiJednicku(&$cislo) {
-    $cislo = $cislo - 1;
+function addOne(&$number) {
+    $number = $number - 1;
 }
 
 /***********************************
@@ -53,20 +53,20 @@ function prictiJednicku(&$cislo) {
 
 ***********************************/
 
-vypisPozdrav();
-vypisPromennou(3.14);
-pozdrav("Vašek");
+printGreetings();
+printVariable(3.14);
+greetings("Vašek");
 
-$ciselnaPromenna = 10;
-echo "Hodnota promenne \$ciselnaPromenna pred volanim funkce odectiJednicku: $ciselnaPromenna\n";
+$numberVariable = 10;
+echo "Hodnota promenne \$numberVariable pred volanim funkce odectiJednicku: $numberVariable\n";
 
-$ciselnaPromenna = odectiJednicku($ciselnaPromenna);
+$numberVariable = subtractOne($numberVariable);
 
-echo "Hodnota promenne \$ciselnaPromenna po volanim funkce odectiJednicku: $ciselnaPromenna\n";
+echo "Hodnota promenne \$numberVariable po volanim funkce odectiJednicku: $numberVariable\n";
 
 
-echo "Hodnota promenne \$ciselnaPromenna pred volanim funkce prictiJednicku: $ciselnaPromenna\n";
+echo "Hodnota promenne \$numberVariable pred volanim funkce prictiJednicku: $numberVariable\n";
 
-prictiJednicku($ciselnaPromenna);
+addOne($numberVariable);
 
-echo "Hodnota promenne \$ciselnaPromenna po volanim funkce prictiJednicku: $ciselnaPromenna\n";
+echo "Hodnota promenne \$numberVariable po volanim funkce prictiJednicku: $numberVariable\n";

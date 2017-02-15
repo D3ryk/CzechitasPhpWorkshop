@@ -1,4 +1,4 @@
 <?php
 
-$promennaJedna = 4;
-$promennaDve = 2.5;
+$variable1 = 4;
+$variable2 = 2.5;

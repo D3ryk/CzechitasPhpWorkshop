@@ -25,37 +25,37 @@ do {
 } while ($x <= 0);
 
 
-echo "\nCyklus foreach a prochazeni pole\n\n";
+echo "\nCyklus foreach a prochazeni array\n\n";
 
 
-$barvy = array('Cervena', 'Modra', 'Bila');
+$colors = array('Cervena', 'Modra', 'Bila');
 /*
-    Procházení pole pomocí foreache
+    Procházení array pomocí foreache
 */
 
-foreach ($barvy as $barva) {
-    echo $barva . "\n";
+foreach ($colors as $color) {
+    echo $color . "\n";
 }
 
-$pole = array(
+$array = array(
     '1' => 'leden',
     '2' => 'unor',
     '3' => 'brezen'
 );
 
-foreach ($pole as $klic => $hodnota) {
-    echo "klic: " . $klic . " hodnota: " . $hodnota . "\n";
+foreach ($array as $key => $value) {
+    echo "key: " . $key . " value: " . $value . "\n";
 }
 
 
-echo "\nCyklus for a prochazeni pole\n\n";
+echo "\nCyklus for a prochazeni array\n\n";
 /*
-    Alternativní prochazení pole pomocí for cyklu
+    Alternativní prochazení array pomocí for cyklu
 
-    Pole barvy je vlastne definovane jako:
+    Pole colors je vlastne definovane jako:
     array( 0 => 'Cervena', 1 => 'Modra', 2 => 'Bila' )
 */
 
-for ($i = 0; $i < count($barvy); $i++) {
-    echo $barvy[$i] . "\n"; // pomoci $barvy[$i] pristupuji do pole pro prvek v poli pod klicem $i
+for ($i = 0; $i < count($colors); $i++) {
+    echo $colors[$i] . "\n"; // pomoci $colors[$i] pristupuji do array pro prvek v poli pod klicem $i
 }

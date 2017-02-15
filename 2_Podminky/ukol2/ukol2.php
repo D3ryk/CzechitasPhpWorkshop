@@ -1,5 +1,5 @@
 <?php
 
-$a = 6;
-$b = 4;
-$den = "";
+$number1 = 6;
+$number2 = 4;
+$day = "";

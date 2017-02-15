@@ -1,9 +1,9 @@
 <?php
 
 
-$cisla = array(2, 9, 23, 65, 16, 22, 103, 1, 6, 72);
+$numbers = array(2, 9, 23, 65, 16, 22, 103, 1, 6, 72);
 
-$ovoce = array(
+$fruits = array(
     'Banan',
     'Pomeranc',
     'Kiwi',
