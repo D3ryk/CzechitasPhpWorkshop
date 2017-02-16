@@ -11,5 +11,5 @@ Pro procházení polí zvolte cyklus foreach, jako bonus na doma doporučuji vyz
 
 Bonus:
 
-f) Vypíše prvky array $fruits pozpátku
+f) Vypíše prvky pole $fruits pozpátku
 
