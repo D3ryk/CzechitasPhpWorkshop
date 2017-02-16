@@ -13,13 +13,13 @@
 
 
 $file_content = "Obsah meho prvniho souboru";
-file_put_contents('./muj_prvni_soubor.txt', $file_content);
+file_put_contents('./data/muj_prvni_soubor.txt', $file_content);
 
 
 
 $file_content = "Jmeno,Prijmeni,Vek\n";
 $file_content = $file_content . "Pavel,Novak,37";
-file_put_contents('./osoby.csv', $file_content);
+file_put_contents('./data/osoby.csv', $file_content);
 
 
 /*
@@ -27,7 +27,7 @@ file_put_contents('./osoby.csv', $file_content);
 */
 
 
-$file_content = file_get_contents('./muj_prvni_soubor.txt');
+$file_content = file_get_contents('./data/muj_prvni_soubor.txt');
 var_dump($file_content);
 
 
@@ -36,7 +36,7 @@ var_dump($file_content);
 */
 
 
-$file_name = "alternativne_zpracovany_soubor.txt"; 
+$file_name = "./data/alternativne_zpracovany_soubor.txt"; 
 $file_handle = fopen($file_name, 'w') or die("Nemohu otevřít soubor"); 
 $bytes = fwrite($file_handle, "Obsah alternativne zpracovaneho souboru");
 fclose($file_handle);

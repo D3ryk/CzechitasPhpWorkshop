@@ -9,7 +9,7 @@
         explode(',', $file_line) ---> vrátí pole s prvky, které jsou v souboru oddělené čárkami
 */
 
-$file_content = file_get_contents('./osoby.csv');
+$file_content = file_get_contents('./data/osoby.csv');
 
 /*for(...) {
     
