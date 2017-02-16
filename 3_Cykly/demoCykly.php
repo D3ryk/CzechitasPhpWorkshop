@@ -25,37 +25,37 @@ do {
 } while ($x <= 0);
 
 
-echo "\nCyklus foreach a prochazeni array\n\n";
+echo "\nCyklus foreach a prochazeni pole\n\n";
 
 
-$colors = array('Cervena', 'Modra', 'Bila');
+$colors = ['Cervena', 'Modra', 'Bila'];
 /*
-    Procházení array pomocí foreache
+    Procházení pole pomocí foreache
 */
 
 foreach ($colors as $color) {
     echo $color . "\n";
 }
 
-$array = array(
+$array = [
     '1' => 'leden',
     '2' => 'unor',
     '3' => 'brezen'
-);
+];
 
 foreach ($array as $key => $value) {
     echo "key: " . $key . " value: " . $value . "\n";
 }
 
 
-echo "\nCyklus for a prochazeni array\n\n";
+echo "\nCyklus for a prochazeni pole\n\n";
 /*
-    Alternativní prochazení array pomocí for cyklu
+    Alternativní prochazení pole pomocí for cyklu
 
     Pole colors je vlastne definovane jako:
-    array( 0 => 'Cervena', 1 => 'Modra', 2 => 'Bila' )
+    [ 0 => 'Cervena', 1 => 'Modra', 2 => 'Bila' ]
 */
 
 for ($i = 0; $i < count($colors); $i++) {
-    echo $colors[$i] . "\n"; // pomoci $colors[$i] pristupuji do array pro prvek v poli pod klicem $i
+    echo $colors[$i] . "\n"; // pomoci $colors[$i] pristupuji do pole pro prvek v poli pod klicem $i
 }

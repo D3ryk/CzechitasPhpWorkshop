@@ -1,9 +1,9 @@
 <?php
 
 
-$numbers = array(2, 9, 23, 65, 16, 22, 103, 1, 6, 72);
+$numbers = [2, 9, 23, 65, 16, 22, 103, 1, 6, 72];
 
-$fruits = array(
+$fruits = [
     'Banan',
     'Pomeranc',
     'Kiwi',
@@ -11,4 +11,4 @@ $fruits = array(
     'Jahody',
     'Hrozny',
     'Mango'
-);
+];
