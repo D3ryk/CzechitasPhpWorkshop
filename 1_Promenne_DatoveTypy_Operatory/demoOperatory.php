@@ -1,5 +1,7 @@
 <?php
 
+// Základní operátor přiřazení
+
 $a = 1;
 $b = 2;
 
@@ -14,7 +16,7 @@ $c = $a + $b; // sčítáni
 $d = $b - $a; // odčítáníé
 $e = $a / $b; // dělení
 $f = $a * $b; // násobení
-$g = $a % 2;
+$g = $a % 2; // zbytek po celočíselném dělení
 
 
 /*
@@ -46,7 +48,6 @@ $n = true && false;
 $n = true and true;
 $o = true || false;
 $o = true or false;
-$p = !$n; // v $n je true, lze číst jako !true
 
 
 // UNÁRNÍ OPERÁTORY --> potřebují ke svému provedení jeden operand(promennou, hodnotu atd.)
@@ -65,3 +66,16 @@ $b--; // odečtení jedničky, je možné číst jako $b = $b - 1;
 */
 
 $p = !$n; // v $n je true, lze číst jako !true
+
+
+// Speciální operátory přiřazení
+
+$q = 10;
+$q += $a; // sčítání, čti $q = $q + $a;
+$q -= $a; // odčítání, čti $q = $q - $a;
+$q *= $a; // násobení, čti $q = $q * $a;
+$q /= $a; // dělení, čti $q = $q / $a;
+$q %= 2; // zbytek po deleni, čti $q = $q % $a;
+
+$r = "Jan";
+$r .= " Novak"; // zřetězení, čti $r = $r . " Novak";
