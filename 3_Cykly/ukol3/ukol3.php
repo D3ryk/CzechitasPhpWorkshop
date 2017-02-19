@@ -15,7 +15,7 @@ $fruits = [
 
 echo "Ukol a)\n";
 
-for ($num = 1; $num <= 9; $num++) {
+for ($num = 3; $num <= 9; $num = $num + 3) {
     echo $num . "\n";
 }
 
