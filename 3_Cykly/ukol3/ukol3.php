@@ -14,7 +14,6 @@ $fruits = [
 ];
 
 echo "Ukol a)\n";
-
 for ($num = 3; $num <= 9; $num = $num + 3) {
     echo $num . "\n";
 }
@@ -29,7 +28,7 @@ foreach ($numbers as $number) {
 echo $total_count . "\n";
 
 
-echo "Ukol c)";
+echo "Ukol c)\n";
 foreach ($numbers as $number) {
     if (($number % 2) == 0) {
         echo $number . "\n";
@@ -46,12 +45,12 @@ echo $fruit_count . "\n";
 
 echo "Ukol e)\n";
 foreach ($fruits as $fruit_key => $fruit_value) {
-    if ($fruit_key == '') {
-        echo $fruit_value . "\n";
+    if ($fruit_value == 'Hrozny') {
+        echo $fruit_key . "\n";
     }
 }
 
 echo "Ukol f)\n";
-for ($i = count($fruits) - 1; $i > 0; $i--) {
+for ($i = count($fruits) - 1; $i >= 0; $i--) {
     echo $fruits[$i] . "\n";
 }
